@@ -1,0 +1,72 @@
+h1, p {
+    background-color: #9e9ea0;    /* Light gray */
+  }
+  h1 {
+    padding: 50px;
+  }
+  p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  h1 {
+    padding: 50px;
+    border: 1px solid #e90a0a;
+  }
+  
+  em, strong {
+    background-color: #577ba4;    /* Light blue */
+  }
+  em, strong {
+    background-color: #577ba4;
+    display: block;
+  }
+  em, strong {
+    background-color: #577ba4;
+    display: inline;             /* This is the default for em and strong */
+  }
+  p {
+    padding: 20px 10px;  /* Vertical  Horizontal */
+  }
+  p {
+    padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
+  }
+  p {
+    padding: 20px 0 20px 10px;
+    margin-bottom: 50px;         
+  }
+  strong {
+    margin: 60px;
+  }
+  p {
+    padding: 20px 0 20px 10px;
+  
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  div {
+    /* [Existing Declarations] */
+    width: 200px;
+  }
+  div {
+    color: #d610cf;
+    background-color: #5bda59;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #205f9e;
+    border-radius: 5px;
+
+    width: 200px;
+    box-sizing: border-box;  
+    margin: 20px auto; /* Vertical  Horizontal */
+  }
+  body {
+    text-align: center;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
